@@ -1,0 +1,23 @@
+.footer-box{
+   margin: 25rem auto;
+   width: 400px;
+   border: 10px solid lightgray;
+   transition: .2s;
+   
+}
+.text-footer{
+    text-align: center;
+    font-weight: 300;
+    font-size: 20px;
+}
+.text-copy{
+    text-align: center;
+    font-weight: 300;
+}
+span{
+    font-weight: 600;
+}
+.footer-box:hover{
+    transform: scale(1.25);
+    box-shadow: 10px 20px 30px 10px black;
+}
