@@ -1,0 +1,26 @@
+.images-box{
+  align-items: center;
+  margin: 30px auto;
+    display: flex;
+    width: fit-content;
+    border: 2px solid lightblue;
+ 
+}
+
+.images{
+    align-items: center;
+    display: flex;
+    margin: 10px;
+    width: 300px;
+    display: flex;
+    align-items: center;
+    transition: .2s;
+
+}
+
+.images:hover{
+
+    transform: scale(1.125);
+   
+
+}
