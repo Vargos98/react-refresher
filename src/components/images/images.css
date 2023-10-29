@@ -2,19 +2,21 @@
   align-items: center;
   margin: 30px auto;
     display: flex;
-    width: fit-content;
+    width: 1280px;
     border: 2px solid lightblue;
+    flex-wrap: wrap;
  
 }
 
 .images{
-    align-items: center;
+    justify-content: center;
     display: flex;
     margin: 10px;
     width: 300px;
     display: flex;
-    align-items: center;
+    overflow: hidden;
     transition: .2s;
+    flex-wrap: wrap;
 
 }
 
@@ -25,3 +27,30 @@
    
 
 }
+@media only screen and (max-width:600px){
+    .images-box{
+        display: block;
+        width: fit-content;
+
+    }
+    .images{
+        width: 150px;
+    
+    }
+    
+}
+@media only screen and (max-width:768px){
+    .images-box{
+        display: block;
+        width: fit-content;
+        display: flex;
+        /* ssss */
+        flex-wrap: wrap;
+
+    }
+    .images{
+        width: 150px;
+    }
+    
+}
+

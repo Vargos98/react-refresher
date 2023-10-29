@@ -10,7 +10,7 @@ const App = () => {
     <Images/>
     <Footer/>
     </div>
-  )
+  );
 }
 
 export default App;
