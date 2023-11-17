@@ -1,0 +1,68 @@
+/* Navbar container */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #fff;
+    padding: 10px 20px;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Logo */
+  .navbar__logo img {
+    height: 30px;
+  }
+  
+  /* Search bar */
+  .navbar__search {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    margin: 0 20px;
+  }
+  
+  .navbar__search input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 2px;
+    outline: none;
+  }
+  
+  .search-button {
+    background: #f8f8f8;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .search-button i {
+    color: #606060;
+  }
+  
+  /* Navigation links */
+  .navbar__links {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .navbar__links a {
+    text-decoration: none;
+    color: #606060;
+    font-weight: 500;
+  }
+  
+  /* Account icons */
+  .navbar__account a {
+    text-decoration: none;
+    color: #606060;
+    margin-right: 20px;
+    font-size: 20px;
+  }
+  
+  /* Add hover effects as needed */
+  .navbar__account a:hover,
+  .navbar__links a:hover {
+    color: #ff0000; /* Example color on hover */
+  }
+  
